@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    color:#404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    min-width: 1024px;
+}
+
+h1{
+    color:#A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif
+}
+
+mainPageHeader{
+    align-self: center;
+    font-size: 22pt;
+}
+
+otherHeaders{
+    align-self: left;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+a{
+    color:#A4A400;
+}
