@@ -1,0 +1,65 @@
+/* EVERYTHING IN BODY ALIGNED TO CENTER */
+body {
+  text-align: center;
+}
+
+/* WORKS FOR PARAGRAPHS ONLY, MAYBE CHANGE? */
+p {
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* FONT-SIZE OF NUMBERS IN PUZZLE AREA (1-15) */
+#puzzlearea {
+    margin: auto; /* keeps margin / indent from left and right side the same -> it is centered */
+    width: 400px;
+    height: 400px;
+    font-size: 40pt;
+    /* background-image: url("background.jpg"); /* commented out due to moving background image to all divs separately
+    /* background-color: #cccccc; */
+}
+
+
+#puzzlearea > div{
+    width: 90px;
+    height: 90px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+}
+
+/* 
+    rady od danieleho:
+    - mat jeden velky div a v nom 15/16 malych
+    - dat im absolute positioning v ramci velkeho
+    - toto by sa mohlo dat nastavit pre velky div v css - absolute positioning
+    -> potom treba shuffle v javascripte
+    - zatial nie uplne rozumiem ze ako pristupovat k rozdeleniu obrazku
+    - mam linky na to ako nastavit background image pre div
+    zatial nemam info o tom ako pracovat s tymi 16 divmi, ako dosiahnem aby som
+    "rozdelil obrazok na 16 casti" 
+*/
+
+/*
+    USEFUL LINKS FOR HANDLING BACKGROUND IMAGES
+    https://www.w3schools.com/cssref/pr_background-image.asp
+    https://www.w3schools.com/cssref/pr_background-position.asp
+    */
+
+/*
+povodne css z hangmana, pre ilustraciu   
+*/
+/*
+body {
+  text-align: center;
+}
+#newgamearea {
+  margin-top: 2em;
+}
+
+#clue, #guesses {
+  font-family: monospace;
+  font-size: 2em;
+  padding: 1em;
+}*/
