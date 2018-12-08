@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png);
+    font-size: 8pt;
+    font: "Verdana";
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner {
+    background-image: url(https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png);
+}
+
+    #banner img {
+        display: block;
+        height: 50px;
+        margin: auto;
+    }
+
+h1 {
+    font-weight: bold;
+    font-size: 24pt;
+    font: "Verdana";
+    text-shadow: 3px 3px #999999;
+}
+
+#parent {
+    width: 800px;
+}
+
+#left {
+
+}
+
+
+
+
+
+
+
+#validator {
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    opacity: 0.5;
+}
