@@ -21,21 +21,49 @@ h1 {
     font-size: 24pt;
     font: "Verdana";
     text-shadow: 3px 3px #999999;
+    text-align: center;
 }
 
 #parent {
     width: 800px;
+    border-radius: 40px;
+    border: 4px solid green;
+    margin: auto;
 }
 
 #left {
-
+    width: 550px;
+    display: inline-block;
+    vertical-align: text-bottom;
 }
 
+#left-banner {
+	background-image: url(https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png);
+	border-top-left-radius: 40px;
+    height:83px;
+}
 
+.rating {
+    font-weight: bold;
+    color: red;
+    font-size: 48pt;
+}
 
+#right {
+    float: right;
+    background-color: #A2B964;
+    width: 250px;
+}
 
+ul {
+    list-style-type: none;
+}
 
-
+#pagination {
+    text-align: center;
+    background-color: #A2B964;
+    padding: 5px;
+}
 
 #validator {
     bottom: 0px;
